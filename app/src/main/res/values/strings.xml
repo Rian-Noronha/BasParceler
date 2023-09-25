@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BasParceler</string>
+    <string name="txt_titulo">Cadastre um jogador:</string>
+    <string name="txt_titulo2">Dados do jogador:</string>
+    <string name="btn_cadastrar_jogador">ENVIAR DADOS JOGADOR</string>
+    <string name="texto_tela2">Posição:%1$s / Idade:%2$d</string>
+
+</resources>
