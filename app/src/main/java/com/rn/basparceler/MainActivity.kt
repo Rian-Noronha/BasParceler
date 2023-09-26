@@ -3,6 +3,7 @@ package com.rn.basparceler
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.rn.basparceler.databinding.ActivityMainBinding
 import org.parceler.Parcels
 
@@ -22,6 +23,36 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+    }
+
+    override fun onStart(){
+        super.onStart()
+        Log.i("NVGL", "Tela1::onStart")
+    }
+
+    override fun onResume(){
+        super.onResume()
+        Log.i("NVGL", "Tela1::onResume")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.i("NVGL", "Tela1::onRestart")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.i("NVGL", "Tela1::onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i("NVGL", "Tela1::onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.i("NVGL", "Tela1::onDestroy")
     }
 
 
